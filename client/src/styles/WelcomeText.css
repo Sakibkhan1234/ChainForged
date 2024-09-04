@@ -1,0 +1,26 @@
+body{
+    background-color:#c2c0c0;
+}
+.welcome-container {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .welcome-text {
+    font-size: 90px;
+    font-weight: bold;
+    color: #007bff;
+    animation: welcome-animation 2s ease-in-out infinite;
+  }
+  
+  @keyframes welcome-animation {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+  }
+  

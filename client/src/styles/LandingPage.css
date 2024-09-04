@@ -1,0 +1,27 @@
+.landing-page {
+    text-align: center;
+    padding: 50px;
+    background-color: #c2c0c0;
+    height: 628px;
+  }
+  .landing-page header{
+     margin-top: 10%;
+  }
+  .landing-page header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page header p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
